@@ -1,0 +1,13 @@
+<div class = "container mt-3 py-5" id="div">
+  <h1 class="mb-3" >Stupid Coaching</h1>
+  <div class= "main">
+    <h5 class ="text-left mb-2" ><%= @question %></h5>
+    <h5 class ="text-left mb-3" >-You</h5>
+  </div>
+  <div class="main" id = "coach">
+    <h5 class="text-left mb-2"><%= @answer %></h5>
+    <h5 class ="text-left mb-3" >-Your coach</h5>
+  </div>
+  <%= link_to "ask a new question", ask_path %>
+</div>
+
